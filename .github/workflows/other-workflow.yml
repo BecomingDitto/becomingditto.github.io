@@ -1,0 +1,14 @@
+name: Reuseable workflow example
+on:
+  push:
+  
+jobs:
+  with-optional-set:
+    uses: BecomingDitto/becomingditto.github.io/.github.workflows.main.yml@master
+    with:
+      optional-value: "Different value"
+      required-value: "Configured Required Value"
+  with-optional-unset:
+    uses: BecomingDitto/becomingditto.github.io/.github.workflows.main.yml@master
+    with:
+      required-value: "Configured Required Value"
