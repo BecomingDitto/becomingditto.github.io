@@ -16,7 +16,16 @@ on:
         default: 'required default value'
         required: true
         type: string
-        
+  workflow_dispatch: 
+    inputs:
+      optional-value:
+        description: 'Test Optional Value'
+        default: 'optional default value'
+        required: false
+      required-value: 
+        description: 'Test Required Value'
+        default: 'required default value'
+        required: true
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
