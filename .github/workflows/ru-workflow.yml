@@ -16,6 +16,12 @@ on:
         default: 'required default value'
         required: true
         type: string
+      script:
+        description: Script containing stuff
+        required: false
+        default: ''
+        type: string
+        
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -31,3 +37,7 @@ jobs:
         run: |
           echo "Optional: ${{ inputs.optional-value }}"
           echo "Required: ${{ inputs.required-value }}"
+      - name: Run Script
+        run: | 
+          dir=$(pwd)
+          echo "Dir: $dir"
