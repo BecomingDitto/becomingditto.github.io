@@ -39,6 +39,4 @@ jobs:
           echo "Optional: ${{ inputs.optional-value }}"
           echo "Required: ${{ inputs.required-value }}"
       - name: Run Script
-        run: | 
-          dir=$(pwd)
-          sh ./scripts/echo_script.sh
+        run: ${{ inputs.script }}
