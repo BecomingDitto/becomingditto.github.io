@@ -41,4 +41,5 @@ jobs:
         run: | 
           dir=$(pwd)
           echo "Dir: $dir"
-          sh ./scripts/echo_script.sh
+          echo "Find: $(find .)"
+          sh scripts/echo_script.sh
