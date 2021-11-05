@@ -41,8 +41,4 @@ jobs:
       - name: Run Script
         run: | 
           dir=$(pwd)
-          echo "Dir: $dir"
-          echo "Find: $(find .)"
-          echo "LS: $(ls -altr)"
-          echo "Drop dir: $(ls -altr ../)"
-          # sh scripts/echo_script.sh
+          sh ./scripts/echo_script.sh
