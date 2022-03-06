@@ -107,9 +107,9 @@
 * Laundry service
 * Vacations
 * Car Usage 
-* * must be current on insurance
-* * must have insurance deductible in savings
-* * must refill gas used
+    * must be current on insurance
+    * must have insurance deductible in savings
+    * must refill gas used
 * Ride service (to take him to / pick up from friends)
 * Smart phone w/ GPS
 * Spotify
