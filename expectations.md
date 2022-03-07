@@ -76,7 +76,7 @@
 ## What we will expect
 * Obedience
 * Respect (at least in speach [i.e., word choice, no profanity] & tone, and especially around little ears)
-* Self motiviation and completion of chores
+* Self motiviation and completion of chores (chores need be done to the standards of an adult)
 * Self motivation to pursue education
 * Clean up after yourself
 * Help others in house
@@ -104,7 +104,6 @@
 * Assistance waking up for EVIT
 * Clothes
 * hygiene + self care products
-* Laundry service
 * Vacations
 * Car Usage 
     * must be current on insurance
